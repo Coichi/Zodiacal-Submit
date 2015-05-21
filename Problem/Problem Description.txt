@@ -1,0 +1,3 @@
+My app (named Zodiacal) is an horoscope that provides information to the users about their luck in the love, health and money and some of their qualities, according to their zodiacal sign.
+
+Plus that the app allows the users share that information with their friends.
