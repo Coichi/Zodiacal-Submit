@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_signos_values">
+        <item>Ar</item>
+        <item>Ta</item>
+        <item>Ge</item>
+        <item>Ca</item>
+        <item>Le</item>
+        <item>Vi</item>
+        <item>Li</item>
+        <item>Es</item>
+        <item>Sa</item>
+        <item>Cp</item>
+        <item>Ac</item>
+        <item>Pi</item>
+    </array>
+    <array name="pref_signos_options">
+        <item>Aries</item>
+        <item>Tauro</item>
+        <item>Gemini</item>
+        <item>Cancer</item>
+        <item>Leo</item>
+        <item>Virgo</item>
+        <item>Libra</item>
+        <item>Escorpio</item>
+        <item>Sagitario</item>
+        <item>Capricornio</item>
+        <item>Acuario</item>
+        <item>Piscis</item>
+    </array>
+</resources>

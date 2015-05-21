@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/pref_signos_key"
+        android:title="@string/pref_signos_label"
+        android:defaultValue="@string/pref_signos_aries"
+        android:entryValues="@array/pref_signos_values"
+        android:entries="@array/pref_signos_options"/>
+
+    <CheckBoxPreference
+        android:title="@string/pref_notifications_label"
+        android:key="@string/pref_notifications_key"
+        android:summaryOff="@string/pref_notifications_false"
+        android:summaryOn="@string/pref_notifications_true"
+        android:defaultValue="@string/pref_notifications_default" />
+
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/zodiacal_dark_blue</item>
+        <item name="colorPrimaryDark">@color/zodiacal_super_dark_blue</item>
+    </style>
+
+    <!-- Main activity theme. -->
+    <style name="HoroscopeTheme" parent="AppTheme">
+        <item name="actionBarStyle">@style/ActionBar.Solid.Zodiacal.NoTitle</item>
+    </style>
+
+    <!-- main activity action bar styles -->
+    <style name="ActionBar.Solid.Zodiacal.NoTitle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="displayOptions">useLogo|showHome</item>
+        <item name="logo">@drawable/ic_logo</item>
+    </style>
+
+    <!-- Settings activity theme. -->
+    <style name="SettingsTheme" parent="AppTheme"></style>
+
+    <style name="HoroscopeListStyle">
+        <!-- Nothing to do here. -->
+    </style>
+
+</resources>
