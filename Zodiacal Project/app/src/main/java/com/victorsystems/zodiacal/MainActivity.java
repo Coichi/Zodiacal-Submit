@@ -47,13 +47,13 @@ public class MainActivity extends ActionBarActivity implements HoroscopeFragment
         ZodiacalSyncAdapter.initializeSyncAdapter(this);
 
         //Banner
-        AdView mAdView = (AdView) findViewById(R.id.adView);
+        /*AdView mAdView = (AdView) findViewById(R.id.adView);*/
         //Interstitial
         interstitial = new InterstitialAd(this);
         interstitial.setAdUnitId(this.getString(R.string.banner_detail_id));
         //Adding both ad request
         AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+        /*mAdView.loadAd(adRequest);*/
         interstitial.loadAd(adRequest);
     }
 
